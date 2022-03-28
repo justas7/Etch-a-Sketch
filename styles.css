@@ -14,6 +14,32 @@ html {
   display: grid;
   height: 960px;
   width: 960px;
+  border: 10px solid #1886b7;
+}
 
-  border: 1px solid black;
+#grid-container div {
+  outline: 1px solid black;
+}
+
+#wrapper {
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#nav {
+  height: 960px;
+  width: 200px;
+  border: 10px solid #1886b7;
+  border-right: 0;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  background-color: #42b4d6;
+}
+
+#header {
+  font-size: 1.2rem;
+  text-align: center;
+  margin: 10px auto;
 }
