@@ -1,0 +1,19 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::after,
+*::before {
+  padding: 0;
+  margin: 0;
+  box-sizing: inherit;
+}
+
+#grid-container {
+  display: grid;
+  height: 960px;
+  width: 960px;
+
+  border: 1px solid black;
+}
